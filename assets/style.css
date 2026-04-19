@@ -1,13 +1,13 @@
-/*
-Theme Name: TechNovaHub
-Theme URI: https://technovahub.com/
+﻿/*
+Theme Name: ByteNoticias
+Theme URI: https://www.bytenoticias.it.com/
 Author: Codex
 Author URI: https://openai.com/
-Description: Tema editorial para TechNovaHub.com, optimizado para blogs de tecnologia con enfoque en contenido y experiencia de lectura.
+Description: Tema editorial para ByteNoticias, optimizado para blogs de tecnologia con enfoque en contenido y experiencia de lectura.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: technovahub
+Text Domain: bytenoticias
 */
 
 :root {
@@ -690,7 +690,7 @@ input[type="submit"]:hover {
 
 .card-meta span + span::before,
 .entry-meta span + span::before {
-  content: "•";
+  content: "â€¢";
   margin-right: 0.75rem;
   color: rgba(96, 103, 116, 0.65);
 }

@@ -1,4 +1,4 @@
-# TechNovaHub static for Vercel
+# ByteNoticias static for Vercel
 
 1. Sube esta carpeta a GitHub.
 2. Importa el repo en Vercel.
