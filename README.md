@@ -6,4 +6,3 @@
 4. Una vez publicado, conecta tu dominio.
 
 La estructura conserva slugs y categorias para facilitar una futura migracion a WordPress.
-# Freelance2
