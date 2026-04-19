@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tutorial basico para proteger un sitio WordPress antes de publicarlo | TechNovaHub.com</title>
+  <meta name="description" content="Guia practica para reforzar la seguridad basica de un sitio WordPress antes de hacerlo publico.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body class="single">
+<div class="site-shell">
+  <div class="topbar">
+    <div class="container">
+      <p class="topbar-note"><span class="topbar-pulse"></span>Contenido original sobre tecnologia, IA, apps y tutoriales utiles.</p>
+      <div class="topbar-links">
+        <a href="/about-us/">Sobre nosotros</a>
+        <a href="/contact/">Contacto</a>
+        <a href="/privacy-policy/">Privacidad</a>
+      </div>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="container">
+      <div class="site-branding">
+        <div class="site-logo" aria-hidden="true">TN</div>
+        <div>
+          <p class="site-title"><a href="/">TechNovaHub.com</a></p>
+          <p class="site-description">Tecnologia, inteligencia artificial, apps y tutoriales claros para lectores digitales.</p>
+        </div>
+      </div>
+      <nav class="main-navigation" aria-label="Primary navigation">
+        <button class="menu-toggle" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+        <ul class="primary-menu" id="primary-menu">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/category/tecnologia/">Tecnologia</a></li>
+          <li><a href="/category/inteligencia-artificial/">Inteligencia Artificial</a></li>
+          <li><a href="/category/apps/">Apps</a></li>
+          <li><a href="/category/tutoriales/">Tutoriales</a></li>
+          <li><a href="/about-us/">About Us</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header><main id="primary" class="site-main">
+  <header class="single-header">
+    <div class="container">
+      <article class="single-hero">
+        <div class="entry-meta">
+          <span class="category-badge">Tutoriales</span>
+          <span>18 abril, 2026</span>
+          <span>5 min de lectura</span>
+        </div>
+        <h1 class="entry-title">Tutorial basico para proteger un sitio WordPress antes de publicarlo</h1>
+        <p class="single-summary">Guia practica para reforzar la seguridad basica de un sitio WordPress antes de hacerlo publico.</p>
+      </article>
+    </div>
+  </header>
+  <div class="content-wrap">
+    <div class="container grid-main">
+      <div>
+        <article>
+          <div class="entry-content">
+            <p>Publicar un sitio WordPress sin una base minima de seguridad es como abrir un local sin revisar cerraduras, accesos y copias de respaldo. No hace falta caer en paranoia ni convertir la gestion del sitio en algo complejo, pero si conviene cubrir varios fundamentos antes de lanzar la web. Muchas incidencias en WordPress no ocurren porque la plataforma sea debil, sino porque se publica con configuraciones por defecto, plugins innecesarios, usuarios mal gestionados o mantenimiento irregular.</p>
+<p>Este tutorial resume una ruta basica y realista para dejar un WordPress mucho mejor protegido desde el principio.</p>
+<h2>1. Actualiza WordPress, tema y plugins</h2>
+<p>El primer paso es el mas evidente y tambien uno de los mas ignorados. Un sitio desactualizado acumula riesgos innecesarios. Antes de publicar:</p>
+<ul>
+<li>instala la ultima version estable de WordPress;</li>
+<li>usa un tema activo y mantenido;</li>
+<li>elimina plugins que no sean realmente necesarios;</li>
+<li>actualiza todo lo que se quede instalado.</li>
+</ul>
+<p>Cada plugin adicional es una puerta potencial de mantenimiento. Si una funcion puede resolverse con el tema o con una solucion simple, muchas veces conviene evitar sobrecargar el sitio.</p>
+<h2>2. Cambia el usuario administrador por defecto</h2>
+<p>Si tu instalacion conserva un usuario administrador demasiado obvio, como <code>admin</code>, estas facilitando intentos de acceso. Lo correcto es crear un usuario administrador con nombre menos predecible y utilizar ese acceso para la gestion diaria. Luego puedes reducir privilegios de otras cuentas o eliminar la cuenta por defecto si ya no es necesaria.</p>
+<p>La seguridad no depende solo de esconder datos, pero si de no regalar patrones previsibles.</p>
+<h2>3. Usa contraseñas fuertes y autenticacion adicional</h2>
+<p>Una contraseña robusta sigue siendo una de las barreras mas utiles. Conviene usar combinaciones largas, unicas y almacenarlas en un gestor seguro. Si el hosting o un plugin confiable permite autentificacion de dos factores, vale mucho la pena activarla para administradores y editores.</p>
+<p>Esto reduce el riesgo de acceso incluso si una contraseña se filtra en otro servicio.</p>
+<h2>4. Revisa permisos y roles</h2>
+<p>No todas las personas que publican o revisan contenido necesitan permisos de administrador. WordPress incluye roles que ayudan a limitar accesos. Antes de publicar, revisa quien puede:</p>
+<ul>
+<li>instalar plugins;</li>
+<li>editar configuraciones;</li>
+<li>publicar entradas;</li>
+<li>gestionar usuarios.</li>
+</ul>
+<p>Cuantos menos privilegios innecesarios existan, menor es la superficie de error. Esto no solo protege de ataques externos, sino tambien de cambios accidentales dentro del propio equipo.</p>
+<h2>5. Configura copias de seguridad reales</h2>
+<p>Un sitio seguro no es el que nunca falla. Es el que puede recuperarse rapido cuando algo sale mal. Por eso las copias de seguridad son esenciales. Lo ideal es contar con respaldos automaticos de archivos y base de datos, almacenados fuera del servidor principal.</p>
+<p>Ademas, no basta con activar backups y olvidarse. Conviene verificar:</p>
+<ul>
+<li>cada cuanto se generan;</li>
+<li>donde se guardan;</li>
+<li>cuanto tiempo se conservan;</li>
+<li>si realmente pueden restaurarse.</li>
+</ul>
+<p>Un respaldo inutilizable es casi lo mismo que no tener respaldo.</p>
+<h2>6. Usa HTTPS y revisa el certificado SSL</h2>
+<p>Hoy, un sitio serio debe funcionar bajo HTTPS. Esto protege la comunicacion entre el visitante y el servidor, mejora confianza y tambien influye en percepcion de calidad. Verifica que el certificado SSL este activo, que no haya contenido mixto y que las versiones con y sin <code>www</code> redirijan correctamente a la URL principal.</p>
+<p>Esta parte es clave tanto para seguridad como para SEO tecnico.</p>
+<h2>7. Limita plugins de origen dudoso</h2>
+<p>Uno de los errores mas frecuentes es instalar temas nulled, plugins descargados de sitios desconocidos o complementos abandonados por sus desarrolladores. Aunque parezca una forma rapida de ahorrar, el costo potencial es alto. Un plugin inseguro puede comprometer todo el sitio.</p>
+<p>La regla sana es simple: instala solo desde fuentes confiables y revisa si la extension recibe mantenimiento reciente, tiene buena reputacion y realmente te hace falta.</p>
+<h2>8. Protege el acceso al panel</h2>
+<p>El area de acceso de WordPress concentra gran parte del riesgo. Algunas medidas utiles son:</p>
+<ul>
+<li>limitar intentos de inicio de sesion;</li>
+<li>activar doble factor si es posible;</li>
+<li>usar URLs seguras y no compartir accesos por chat;</li>
+<li>evitar trabajar desde redes inseguras sin proteccion.</li>
+</ul>
+<p>No hace falta ocultar el acceso como si fuera un secreto absoluto, pero si conviene endurecer el punto de entrada.</p>
+<h2>9. Elimina lo que no uses</h2>
+<p>Muchos sitios quedan llenos de temas inactivos, plugins desactivados, borradores viejos y contenido de prueba. Todo eso añade desorden y, a veces, riesgo. Antes de publicar, haz una limpieza:</p>
+<ul>
+<li>borra plugins que no vas a usar;</li>
+<li>elimina temas sobrantes;</li>
+<li>quita paginas de demostracion;</li>
+<li>revisa medios subidos sin necesidad;</li>
+<li>confirma que no queden textos provisionales indexables.</li>
+</ul>
+<p>Menos superficie inutil implica menos mantenimiento y menos oportunidades de error.</p>
+<h2>10. Revisa la configuracion de comentarios y spam</h2>
+<p>Si vas a permitir comentarios, necesitas un plan para moderarlos. El spam no solo afea el sitio; tambien puede afectar confianza y calidad percibida. Configura moderacion, filtros y reglas basicas antes de abrir esa puerta.</p>
+<p>Si no planeas trabajar los comentarios activamente, es mejor desactivarlos al inicio y activarlos mas adelante con un sistema claro.</p>
+<h2>11. Verifica informacion sensible visible</h2>
+<p>Antes de lanzar, revisa si el sitio expone informacion que no deberia:</p>
+<ul>
+<li>versiones visibles en exceso;</li>
+<li>directorios abiertos;</li>
+<li>archivos de prueba;</li>
+<li>cuentas de correo en texto publico;</li>
+<li>paginas internas indexables por error.</li>
+</ul>
+<p>Una revision manual breve puede detectar detalles que despues generan problemas mayores.</p>
+<h2>12. Crea una rutina de mantenimiento</h2>
+<p>La seguridad no se resuelve el dia del lanzamiento. Lo importante es sostener una rutina simple:</p>
+<ul>
+<li>revisar actualizaciones semanalmente;</li>
+<li>confirmar backups periodicamente;</li>
+<li>eliminar extensiones innecesarias;</li>
+<li>revisar accesos de usuarios;</li>
+<li>monitorear alertas del hosting.</li>
+</ul>
+<p>Esta disciplina ligera suele prevenir la mayoria de los problemas comunes.</p>
+<h2>Conclusion</h2>
+<p>Proteger un sitio WordPress antes de publicarlo no requiere una infraestructura empresarial, pero si decisiones responsables. Actualizar, usar contraseñas fuertes, limitar accesos, respaldar bien el sitio y evitar plugins dudosos ya marca una diferencia enorme. Cuando la base esta cuidada, puedes concentrarte en crecer contenido, SEO y monetizacion con mucha mas tranquilidad.</p>
+<p>La seguridad efectiva en WordPress casi siempre se apoya en fundamentos sencillos bien ejecutados. Si cubres estos pasos antes del lanzamiento, tu sitio empezara con una posicion mucho mas solida.</p>
+          </div>
+          <footer class="article-footer">
+            <div class="entry-meta">
+              <span>TechNovaHub Editorial</span>
+              <span>18 abril, 2026</span>
+              <span>5 min de lectura</span>
+            </div>
+          </footer>
+        </article>
+      </div>
+      <aside class="sidebar-area">
+  <section class="widget">
+    <h3 class="widget-title">Empieza aqui</h3>
+    <p>Explora las categorias principales, revisa las guias destacadas y visita la pagina de contacto si deseas escribirnos.</p>
+  </section>
+  <section class="widget">
+    <h3 class="widget-title">Categorias</h3>
+    <ul><li><a href="/category/tecnologia/">Tecnologia</a> <span>(3)</span></li><li><a href="/category/inteligencia-artificial/">Inteligencia Artificial</a> <span>(3)</span></li><li><a href="/category/apps/">Apps</a> <span>(2)</span></li><li><a href="/category/tutoriales/">Tutoriales</a> <span>(2)</span></li></ul>
+  </section>
+  <section class="widget">
+    <h3 class="widget-title">Guias recomendadas</h3>
+    <ul><li><a href="/apps-para-trabajo-remoto/">10 apps que ayudan a organizar el trabajo remoto sin complicar al equipo</a></li><li><a href="/automatizar-con-ia-sin-perder-control/">Como automatizar tareas repetitivas con IA sin perder control del proceso</a></li><li><a href="/ciberseguridad-cotidiana/">Tendencias de ciberseguridad cotidiana que cualquier usuario deberia entender</a></li><li><a href="/comparativa-apps-de-notas/">Comparativa de apps de notas: cual conviene segun tu forma de pensar y trabajar</a></li></ul>
+  </section>
+  <section class="widget">
+    <h3 class="widget-title">Entradas recientes</h3>
+    <ul><li><a href="/apps-para-trabajo-remoto/">10 apps que ayudan a organizar el trabajo remoto sin complicar al equipo</a></li><li><a href="/automatizar-con-ia-sin-perder-control/">Como automatizar tareas repetitivas con IA sin perder control del proceso</a></li><li><a href="/ciberseguridad-cotidiana/">Tendencias de ciberseguridad cotidiana que cualquier usuario deberia entender</a></li><li><a href="/comparativa-apps-de-notas/">Comparativa de apps de notas: cual conviene segun tu forma de pensar y trabajar</a></li><li><a href="/edge-ai-vs-cloud-ai/">Edge AI vs Cloud AI: cual conviene mas para negocios que buscan eficiencia</a></li></ul>
+  </section>
+</aside>
+    </div>
+  </div>
+</main>  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3 class="footer-title">TechNovaHub.com</h3>
+          <p>TechNovaHub publica contenido util, original y bien estructurado para audiencias interesadas en tecnologia, inteligencia artificial, aplicaciones y aprendizaje practico.</p>
+        </div>
+        <div>
+          <h3 class="footer-title">Secciones</h3>
+          <ul class="footer-links">
+            <li><a href="/category/tecnologia/">Tecnologia</a></li>
+            <li><a href="/category/inteligencia-artificial/">Inteligencia Artificial</a></li>
+            <li><a href="/category/apps/">Apps</a></li>
+            <li><a href="/category/tutoriales/">Tutoriales</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title">Paginas legales</h3>
+          <ul class="footer-links">
+            <li><a href="/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="/terms-and-conditions/">Terms & Conditions</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>2026 TechNovaHub.com. Todos los derechos reservados.</p>
+        <p>Proyecto editorial enfocado en contenido original, navegacion clara y experiencia de lectura consistente.</p>
+      </div>
+    </div>
+  </footer>
+</div>
+<script src="/assets/site.js"></script>
+</body>
+</html>
