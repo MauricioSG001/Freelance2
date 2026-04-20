@@ -1,4 +1,4 @@
-/*
+﻿/*
 Theme Name: ByteNoticias
 Theme URI: https://www.bytenoticias.it.com/
 Author: Codex
@@ -690,7 +690,7 @@ input[type="submit"]:hover {
 
 .card-meta span + span::before,
 .entry-meta span + span::before {
-  content: "•";
+  content: "â€¢";
   margin-right: 0.75rem;
   color: rgba(96, 103, 116, 0.65);
 }
@@ -951,7 +951,7 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
-.demo-ad {
+.promo-slot {
   width: min(calc(100% - 2rem), var(--container));
   margin: 1.25rem auto;
   padding: 1rem 1.15rem;
@@ -965,7 +965,7 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
-.demo-ad::before {
+.promo-slot::before {
   content: "";
   display: block;
   width: 42px;
@@ -975,7 +975,7 @@ input[type="submit"]:hover {
   background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
 }
 
-.demo-ad__label {
+.promo-slot__label {
   display: inline-flex;
   margin-bottom: 0.35rem;
   padding: 0.2rem 0.65rem;
@@ -988,26 +988,26 @@ input[type="submit"]:hover {
   text-transform: uppercase;
 }
 
-.demo-ad strong {
+.promo-slot strong {
   display: block;
   font-family: var(--font-heading);
   font-size: clamp(1.15rem, 2.4vw, 1.55rem);
   line-height: 1.2;
 }
 
-.demo-ad p {
+.promo-slot p {
   max-width: 640px;
   margin: 0.4rem auto 0;
   color: var(--color-text-soft);
   font-size: 0.92rem;
 }
 
-.demo-ad--inline {
+.promo-slot--inline {
   width: 100%;
   margin: 1.8rem 0;
 }
 
-.demo-ad--feed {
+.promo-slot--feed {
   width: 100%;
   min-height: 260px;
   display: grid;
@@ -1016,12 +1016,12 @@ input[type="submit"]:hover {
   margin: 0;
 }
 
-.demo-ad--section {
+.promo-slot--section {
   width: 100%;
   margin: 1.4rem 0 0;
 }
 
-.demo-ad--sidebar {
+.promo-slot--sidebar {
   width: 100%;
   min-height: 250px;
   margin: 0 0 1.2rem;
@@ -1031,20 +1031,20 @@ input[type="submit"]:hover {
   align-content: center;
 }
 
-.demo-ad--bottom {
+.promo-slot--bottom {
   margin-top: 2rem;
 }
 
-.demo-ad--wide {
+.promo-slot--wide {
   margin-top: 2.5rem;
   margin-bottom: 0;
 }
 
-.demo-ad--mobile-anchor {
+.promo-slot--mobile-anchor {
   display: none;
 }
 
-.product-ad {
+.product-promo {
   display: grid;
   grid-template-columns: minmax(180px, 280px) minmax(0, 1fr);
   gap: 1rem;
@@ -1052,11 +1052,11 @@ input[type="submit"]:hover {
   text-align: left;
 }
 
-.product-ad::before {
+.product-promo::before {
   display: none;
 }
 
-.product-ad__media {
+.product-promo__media {
   display: block;
   min-height: 150px;
   border-radius: 18px;
@@ -1065,18 +1065,18 @@ input[type="submit"]:hover {
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.16);
 }
 
-.product-ad__media img {
+.product-promo__media img {
   width: 100%;
   height: 100%;
   min-height: 150px;
   object-fit: cover;
 }
 
-.product-ad__content {
+.product-promo__content {
   min-width: 0;
 }
 
-.product-ad__cta {
+.product-promo__cta {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1089,34 +1089,34 @@ input[type="submit"]:hover {
   line-height: 1.1;
 }
 
-.product-ad__cta:hover,
-.product-ad__cta:focus {
+.product-promo__cta:hover,
+.product-promo__cta:focus {
   color: #fff;
   background: var(--color-primary-dark);
 }
 
-.product-ad--feed,
-.product-ad--sidebar {
+.product-promo--feed,
+.product-promo--sidebar {
   grid-template-columns: 1fr;
   text-align: center;
 }
 
-.product-ad--feed .product-ad__media,
-.product-ad--sidebar .product-ad__media {
+.product-promo--feed .product-promo__media,
+.product-promo--sidebar .product-promo__media {
   width: 100%;
 }
 
-.product-ad--sidebar strong {
+.product-promo--sidebar strong {
   font-size: 1.25rem;
 }
 
-.product-ad--mobile-anchor {
+.product-promo--mobile-anchor {
   grid-template-columns: 58px minmax(0, 1fr);
   text-align: left;
 }
 
-.product-ad--mobile-anchor .product-ad__media,
-.product-ad--mobile-anchor .product-ad__media img {
+.product-promo--mobile-anchor .product-promo__media,
+.product-promo--mobile-anchor .product-promo__media img {
   min-height: 58px;
   height: 58px;
   border-radius: 14px;
@@ -1134,7 +1134,7 @@ input[type="submit"]:hover {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .demo-ad--sidebar {
+  .promo-slot--sidebar {
     min-height: auto;
   }
 }
@@ -1209,18 +1209,18 @@ input[type="submit"]:hover {
     padding: 1.2rem;
   }
 
-  .demo-ad {
+  .promo-slot {
     width: min(calc(100% - 1.4rem), var(--container));
   }
 
-  .demo-ad--inline,
-  .demo-ad--feed,
-  .demo-ad--section,
-  .demo-ad--sidebar {
+  .promo-slot--inline,
+  .promo-slot--feed,
+  .promo-slot--section,
+  .promo-slot--sidebar {
     width: 100%;
   }
 
-  .demo-ad--mobile-anchor {
+  .promo-slot--mobile-anchor {
     position: fixed;
     right: 0.7rem;
     bottom: 0.7rem;
@@ -1233,30 +1233,30 @@ input[type="submit"]:hover {
     box-shadow: 0 18px 50px rgba(31, 36, 48, 0.22);
   }
 
-  .demo-ad--mobile-anchor p {
+  .promo-slot--mobile-anchor p {
     display: none;
   }
 
-  .demo-ad--mobile-anchor strong {
+  .promo-slot--mobile-anchor strong {
     font-size: 1rem;
   }
 
-  .product-ad {
+  .product-promo {
     grid-template-columns: 1fr;
     text-align: center;
   }
 
-  .product-ad--mobile-anchor {
+  .product-promo--mobile-anchor {
     grid-template-columns: 54px minmax(0, 1fr);
     text-align: left;
   }
 
-  .product-ad--mobile-anchor .demo-ad__label,
-  .product-ad--mobile-anchor p {
+  .product-promo--mobile-anchor .promo-slot__label,
+  .product-promo--mobile-anchor p {
     display: none;
   }
 
-  .product-ad--mobile-anchor .product-ad__cta {
+  .product-promo--mobile-anchor .product-promo__cta {
     display: none;
   }
 }

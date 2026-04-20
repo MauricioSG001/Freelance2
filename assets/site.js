@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   const now = Date.now();
-  document.querySelectorAll("[data-demo-ad]").forEach((ad) => {
+  document.querySelectorAll("[data-demo-promo]").forEach((ad) => {
     const expiresAt = Date.parse(ad.dataset.expireAt || "");
     if (Number.isFinite(expiresAt) && now >= expiresAt) {
       ad.remove();
