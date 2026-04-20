@@ -1,4 +1,4 @@
-﻿/*
+/*
 Theme Name: ByteNoticias
 Theme URI: https://www.bytenoticias.it.com/
 Author: Codex
@@ -690,7 +690,7 @@ input[type="submit"]:hover {
 
 .card-meta span + span::before,
 .entry-meta span + span::before {
-  content: "â€¢";
+  content: "•";
   margin-right: 0.75rem;
   color: rgba(96, 103, 116, 0.65);
 }
@@ -949,6 +949,56 @@ input[type="submit"]:hover {
 
 .not-found {
   text-align: center;
+}
+
+.demo-ad {
+  width: min(calc(100% - 2rem), var(--container));
+  margin: 1.25rem auto;
+  padding: 1rem 1.15rem;
+  border: 1px dashed rgba(13, 118, 110, 0.42);
+  border-radius: var(--radius-sm);
+  background:
+    linear-gradient(135deg, rgba(13, 118, 110, 0.1), rgba(198, 92, 57, 0.08)),
+    rgba(255, 253, 248, 0.9);
+  box-shadow: 0 16px 40px rgba(31, 36, 48, 0.08);
+  color: var(--color-text);
+  text-align: center;
+}
+
+.demo-ad__label {
+  display: inline-flex;
+  margin-bottom: 0.35rem;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  background: rgba(13, 118, 110, 0.12);
+  color: var(--color-accent);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.demo-ad strong {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: clamp(1.15rem, 2.4vw, 1.55rem);
+  line-height: 1.2;
+}
+
+.demo-ad p {
+  max-width: 640px;
+  margin: 0.4rem auto 0;
+  color: var(--color-text-soft);
+  font-size: 0.92rem;
+}
+
+.demo-ad--inline {
+  width: 100%;
+  margin: 1.8rem 0;
+}
+
+.demo-ad--bottom {
+  margin-top: 2rem;
 }
 
 @media (max-width: 1024px) {
